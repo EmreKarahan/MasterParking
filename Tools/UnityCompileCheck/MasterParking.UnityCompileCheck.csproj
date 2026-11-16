@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <AssemblyName>MasterParking.UnityCompileCheck</AssemblyName>
+    <RootNamespace>MasterParking.UnityCompileCheck</RootNamespace>
+    <DefineConstants>UNITY_EDITOR;DEVELOPMENT_BUILD</DefineConstants>
+    <NoWarn>CS0067;CS0414;CS0169;CS0649;CS1998</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="UnityStubs.cs" />
+    <Compile Include="../../Assets/_Project/Scripts/Core/**/*.cs" />
+    <Compile Include="../../Assets/_Project/Scripts/**/*.cs"
+             Exclude="../../Assets/_Project/Scripts/Core/**/*.cs;../../Assets/_Project/Scripts/Editor/**/*.cs" />
+  </ItemGroup>
+
+</Project>

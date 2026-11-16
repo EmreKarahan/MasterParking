@@ -1,0 +1,2805 @@
+{
+  "Version": 1,
+  "Source": "park_game (1).html",
+  "WorldScale": 0.1,
+  "Levels": [
+    {
+      "Id": 1,
+      "Name": "İlk Adım",
+      "ParTime": 10,
+      "Difficulty": 1,
+      "Start": {
+        "X": 22,
+        "Z": 32.5,
+        "Angle": 0
+      },
+      "Target": {
+        "X": 92,
+        "Z": 32.5,
+        "Angle": 0,
+        "Width": 10.5,
+        "Depth": 5.6,
+        "ToleranceDistance": 2.4,
+        "ToleranceAngle": 0.22
+      },
+      "Walls": [
+        {
+          "X": 10,
+          "Z": 18,
+          "Width": 100,
+          "Depth": 2.5
+        },
+        {
+          "X": 10,
+          "Z": 44.5,
+          "Width": 100,
+          "Depth": 2.5
+        },
+        {
+          "X": 10,
+          "Z": 18,
+          "Width": 2.5,
+          "Depth": 29
+        },
+        {
+          "X": 107.5,
+          "Z": 18,
+          "Width": 2.5,
+          "Depth": 29
+        }
+      ],
+      "ParkedCars": [],
+      "Cones": [
+        {
+          "X": 84,
+          "Z": 26.5,
+          "Radius": 1
+        },
+        {
+          "X": 84,
+          "Z": 38.5,
+          "Radius": 1
+        }
+      ],
+      "Movers": [],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 14,
+                "Z": 32.5
+              },
+              {
+                "X": 86.5,
+                "Z": 32.5
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [],
+        "Rects": [],
+        "Arrows": [
+          {
+            "X": 33,
+            "Z": 26.5,
+            "Angle": 0
+          },
+          {
+            "X": 60,
+            "Z": 38.5,
+            "Angle": 0
+          }
+        ],
+        "Signs": [
+          {
+            "Kind": "work",
+            "X": 82,
+            "Z": 19.8,
+            "Angle": 1.5708
+          },
+          {
+            "Kind": "work",
+            "X": 87,
+            "Z": 45.2,
+            "Angle": -1.5708
+          }
+        ],
+        "Lights": [],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [],
+        "Chevrons": [],
+        "Gates": []
+      }
+    },
+    {
+      "Id": 2,
+      "Name": "Sağa Yanaş",
+      "ParTime": 12,
+      "Difficulty": 1,
+      "Start": {
+        "X": 20,
+        "Z": 22,
+        "Angle": 0
+      },
+      "Target": {
+        "X": 80,
+        "Z": 43,
+        "Angle": 0,
+        "Width": 10.5,
+        "Depth": 5.6,
+        "ToleranceDistance": 2.4,
+        "ToleranceAngle": 0.22
+      },
+      "Walls": [
+        {
+          "X": 8,
+          "Z": 10,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 52.5,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 10,
+          "Width": 2.5,
+          "Depth": 45
+        },
+        {
+          "X": 109.5,
+          "Z": 10,
+          "Width": 2.5,
+          "Depth": 45
+        },
+        {
+          "X": 45,
+          "Z": 12.5,
+          "Width": 3,
+          "Depth": 21
+        }
+      ],
+      "ParkedCars": [
+        {
+          "X": 68.2,
+          "Z": 43,
+          "Angle": 0,
+          "Color": "#ef4444"
+        },
+        {
+          "X": 91.8,
+          "Z": 43,
+          "Angle": 0,
+          "Color": "#f59e0b"
+        }
+      ],
+      "Cones": [
+        {
+          "X": 56,
+          "Z": 36,
+          "Radius": 1
+        }
+      ],
+      "Movers": [],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 14,
+                "Z": 22.5
+              },
+              {
+                "X": 30,
+                "Z": 22.5
+              },
+              {
+                "X": 30,
+                "Z": 38.5
+              },
+              {
+                "X": 64,
+                "Z": 38.5
+              },
+              {
+                "X": 107.5,
+                "Z": 38.5
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [],
+        "Rects": [],
+        "Arrows": [],
+        "Signs": [
+          {
+            "Kind": "oneway",
+            "X": 30,
+            "Z": 11.9,
+            "Angle": 1.5708
+          },
+          {
+            "Kind": "nopark",
+            "X": 101,
+            "Z": 52,
+            "Angle": -1.5708
+          }
+        ],
+        "Lights": [],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [],
+        "Chevrons": [],
+        "Gates": []
+      }
+    },
+    {
+      "Id": 3,
+      "Name": "AVM Otoparkı",
+      "ParTime": 14,
+      "Difficulty": 1,
+      "Start": {
+        "X": 20,
+        "Z": 44,
+        "Angle": 0
+      },
+      "Target": {
+        "X": 75,
+        "Z": 19.5,
+        "Angle": -1.5708,
+        "Width": 10.5,
+        "Depth": 5.6,
+        "ToleranceDistance": 2.4,
+        "ToleranceAngle": 0.22
+      },
+      "Walls": [
+        {
+          "X": 8,
+          "Z": 9,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 53.5,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 9,
+          "Width": 2.5,
+          "Depth": 47
+        },
+        {
+          "X": 109.5,
+          "Z": 9,
+          "Width": 2.5,
+          "Depth": 47
+        }
+      ],
+      "ParkedCars": [
+        {
+          "X": 61,
+          "Z": 19.5,
+          "Angle": 1.5708,
+          "Color": "#ec4899"
+        },
+        {
+          "X": 68,
+          "Z": 19.5,
+          "Angle": 1.5708,
+          "Color": "#f59e0b"
+        },
+        {
+          "X": 82,
+          "Z": 19.5,
+          "Angle": 1.5708,
+          "Color": "#8b5cf6"
+        },
+        {
+          "X": 89,
+          "Z": 19.5,
+          "Angle": 1.5708,
+          "Color": "#10b981"
+        }
+      ],
+      "Cones": [
+        {
+          "X": 38,
+          "Z": 34,
+          "Radius": 1
+        },
+        {
+          "X": 48,
+          "Z": 34,
+          "Radius": 1
+        }
+      ],
+      "Movers": [],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 14,
+                "Z": 33
+              },
+              {
+                "X": 107.5,
+                "Z": 33
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [],
+        "Rects": [],
+        "Arrows": [
+          {
+            "X": 26,
+            "Z": 44,
+            "Angle": 0
+          }
+        ],
+        "Signs": [
+          {
+            "Kind": "ped",
+            "X": 50,
+            "Z": 10.6,
+            "Angle": 1.5708
+          }
+        ],
+        "Lights": [],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [],
+        "Chevrons": [],
+        "Gates": [
+          {
+            "X": 13.5,
+            "Z": 39.5,
+            "Angle": 0
+          }
+        ]
+      }
+    },
+    {
+      "Id": 4,
+      "Name": "Paralel Park",
+      "ParTime": 16,
+      "Difficulty": 1,
+      "Start": {
+        "X": 24,
+        "Z": 28,
+        "Angle": 0
+      },
+      "Target": {
+        "X": 64,
+        "Z": 43.5,
+        "Angle": 0,
+        "Width": 10.5,
+        "Depth": 5.6,
+        "ToleranceDistance": 2.4,
+        "ToleranceAngle": 0.22
+      },
+      "Walls": [
+        {
+          "X": 8,
+          "Z": 12,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 49,
+          "Width": 104,
+          "Depth": 3.5
+        },
+        {
+          "X": 8,
+          "Z": 12,
+          "Width": 2.5,
+          "Depth": 40.5
+        },
+        {
+          "X": 109.5,
+          "Z": 12,
+          "Width": 2.5,
+          "Depth": 40.5
+        }
+      ],
+      "ParkedCars": [
+        {
+          "X": 53.2,
+          "Z": 43.5,
+          "Angle": 0,
+          "Color": "#10b981"
+        },
+        {
+          "X": 74.8,
+          "Z": 43.5,
+          "Angle": 0,
+          "Color": "#6366f1"
+        },
+        {
+          "X": 94,
+          "Z": 43.5,
+          "Angle": 0,
+          "Color": "#f43f5e"
+        }
+      ],
+      "Cones": [],
+      "Movers": [],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 14,
+                "Z": 29
+              },
+              {
+                "X": 107.5,
+                "Z": 29
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [],
+        "Rects": [],
+        "Arrows": [
+          {
+            "X": 30,
+            "Z": 40,
+            "Angle": 0
+          }
+        ],
+        "Signs": [
+          {
+            "Kind": "nopark",
+            "X": 102,
+            "Z": 50.8,
+            "Angle": -1.5708
+          },
+          {
+            "Kind": "oneway",
+            "X": 34,
+            "Z": 13.2,
+            "Angle": 1.5708
+          }
+        ],
+        "Lights": [],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [],
+        "Chevrons": [],
+        "Gates": []
+      }
+    },
+    {
+      "Id": 5,
+      "Name": "Geri Manevra",
+      "ParTime": 16,
+      "Difficulty": 2,
+      "Start": {
+        "X": 88,
+        "Z": 24,
+        "Angle": 0
+      },
+      "Target": {
+        "X": 26,
+        "Z": 41,
+        "Angle": 0,
+        "Width": 10,
+        "Depth": 5.2,
+        "ToleranceDistance": 2,
+        "ToleranceAngle": 0.2
+      },
+      "Walls": [
+        {
+          "X": 10,
+          "Z": 11,
+          "Width": 100,
+          "Depth": 2.5
+        },
+        {
+          "X": 10,
+          "Z": 51.5,
+          "Width": 100,
+          "Depth": 2.5
+        },
+        {
+          "X": 10,
+          "Z": 11,
+          "Width": 2.5,
+          "Depth": 43
+        },
+        {
+          "X": 107.5,
+          "Z": 11,
+          "Width": 2.5,
+          "Depth": 43
+        },
+        {
+          "X": 12.5,
+          "Z": 31,
+          "Width": 36,
+          "Depth": 3
+        }
+      ],
+      "ParkedCars": [
+        {
+          "X": 43,
+          "Z": 41,
+          "Angle": 0,
+          "Color": "#eab308"
+        }
+      ],
+      "Cones": [
+        {
+          "X": 64,
+          "Z": 20,
+          "Radius": 1
+        },
+        {
+          "X": 64,
+          "Z": 32,
+          "Radius": 1
+        }
+      ],
+      "Movers": [],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 107.5,
+                "Z": 26.5
+              },
+              {
+                "X": 56,
+                "Z": 26.5
+              },
+              {
+                "X": 56,
+                "Z": 47
+              },
+              {
+                "X": 20,
+                "Z": 47
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [],
+        "Rects": [],
+        "Arrows": [],
+        "Signs": [
+          {
+            "Kind": "work",
+            "X": 64,
+            "Z": 12.6,
+            "Angle": 1.5708
+          },
+          {
+            "Kind": "work",
+            "X": 64,
+            "Z": 52.8,
+            "Angle": -1.5708
+          }
+        ],
+        "Lights": [],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [],
+        "Chevrons": [],
+        "Gates": []
+      }
+    },
+    {
+      "Id": 6,
+      "Name": "S-Virajı",
+      "ParTime": 18,
+      "Difficulty": 2,
+      "Start": {
+        "X": 18,
+        "Z": 45,
+        "Angle": 0
+      },
+      "Target": {
+        "X": 98,
+        "Z": 20,
+        "Angle": 0,
+        "Width": 10,
+        "Depth": 5.2,
+        "ToleranceDistance": 2,
+        "ToleranceAngle": 0.2
+      },
+      "Walls": [
+        {
+          "X": 8,
+          "Z": 10,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 52.5,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 10,
+          "Width": 2.5,
+          "Depth": 45
+        },
+        {
+          "X": 109.5,
+          "Z": 10,
+          "Width": 2.5,
+          "Depth": 45
+        },
+        {
+          "X": 38,
+          "Z": 27,
+          "Width": 3,
+          "Depth": 25.5
+        },
+        {
+          "X": 72,
+          "Z": 12.5,
+          "Width": 3,
+          "Depth": 25.5
+        }
+      ],
+      "ParkedCars": [],
+      "Cones": [
+        {
+          "X": 55,
+          "Z": 22,
+          "Radius": 1
+        },
+        {
+          "X": 55,
+          "Z": 42,
+          "Radius": 1
+        }
+      ],
+      "Movers": [],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 14,
+                "Z": 45
+              },
+              {
+                "X": 29.5,
+                "Z": 45
+              },
+              {
+                "X": 29.5,
+                "Z": 20
+              },
+              {
+                "X": 56,
+                "Z": 20
+              },
+              {
+                "X": 56,
+                "Z": 45
+              },
+              {
+                "X": 85,
+                "Z": 45
+              },
+              {
+                "X": 85,
+                "Z": 20
+              },
+              {
+                "X": 107.5,
+                "Z": 20
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [],
+        "Rects": [],
+        "Arrows": [],
+        "Signs": [
+          {
+            "Kind": "oneway",
+            "X": 56,
+            "Z": 11.8,
+            "Angle": 1.5708
+          },
+          {
+            "Kind": "work",
+            "X": 56,
+            "Z": 53.8,
+            "Angle": -1.5708
+          }
+        ],
+        "Lights": [],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [],
+        "Chevrons": [],
+        "Gates": []
+      }
+    },
+    {
+      "Id": 7,
+      "Name": "Çapraz Düzen",
+      "ParTime": 16,
+      "Difficulty": 2,
+      "Start": {
+        "X": 20,
+        "Z": 44,
+        "Angle": 0
+      },
+      "Target": {
+        "X": 75,
+        "Z": 21.5,
+        "Angle": -0.7854,
+        "Width": 10,
+        "Depth": 5.2,
+        "ToleranceDistance": 2,
+        "ToleranceAngle": 0.2
+      },
+      "Walls": [
+        {
+          "X": 8,
+          "Z": 9,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 53.5,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 9,
+          "Width": 2.5,
+          "Depth": 47
+        },
+        {
+          "X": 109.5,
+          "Z": 9,
+          "Width": 2.5,
+          "Depth": 47
+        }
+      ],
+      "ParkedCars": [
+        {
+          "X": 79.2,
+          "Z": 25.7,
+          "Angle": -0.7854,
+          "Color": "#ef4444"
+        },
+        {
+          "X": 70.8,
+          "Z": 17.3,
+          "Angle": -0.7854,
+          "Color": "#06b6d4"
+        }
+      ],
+      "Cones": [
+        {
+          "X": 42,
+          "Z": 36,
+          "Radius": 1
+        }
+      ],
+      "Movers": [],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 14,
+                "Z": 44
+              },
+              {
+                "X": 56,
+                "Z": 44
+              },
+              {
+                "X": 56,
+                "Z": 30
+              },
+              {
+                "X": 107.5,
+                "Z": 30
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [],
+        "Rects": [],
+        "Arrows": [
+          {
+            "X": 30,
+            "Z": 47,
+            "Angle": 0
+          }
+        ],
+        "Signs": [
+          {
+            "Kind": "nopark",
+            "X": 40,
+            "Z": 54,
+            "Angle": -1.5708
+          },
+          {
+            "Kind": "oneway",
+            "X": 30,
+            "Z": 10.8,
+            "Angle": 1.5708
+          }
+        ],
+        "Lights": [],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [],
+        "Chevrons": [],
+        "Gates": []
+      }
+    },
+    {
+      "Id": 8,
+      "Name": "U-Dönüşü",
+      "ParTime": 20,
+      "Difficulty": 2,
+      "Start": {
+        "X": 22,
+        "Z": 19.5,
+        "Angle": 0
+      },
+      "Target": {
+        "X": 24,
+        "Z": 44.5,
+        "Angle": 3.1416,
+        "Width": 10,
+        "Depth": 5.2,
+        "ToleranceDistance": 2,
+        "ToleranceAngle": 0.2
+      },
+      "Walls": [
+        {
+          "X": 8,
+          "Z": 9.5,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 53,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 9.5,
+          "Width": 2.5,
+          "Depth": 46
+        },
+        {
+          "X": 109.5,
+          "Z": 9.5,
+          "Width": 2.5,
+          "Depth": 46
+        },
+        {
+          "X": 10.5,
+          "Z": 31,
+          "Width": 73,
+          "Depth": 3
+        }
+      ],
+      "ParkedCars": [
+        {
+          "X": 40.5,
+          "Z": 44.5,
+          "Angle": 3.1416,
+          "Color": "#a855f7"
+        }
+      ],
+      "Cones": [
+        {
+          "X": 96,
+          "Z": 22,
+          "Radius": 1
+        },
+        {
+          "X": 96,
+          "Z": 42,
+          "Radius": 1
+        }
+      ],
+      "Movers": [],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 14,
+                "Z": 21.5
+              },
+              {
+                "X": 93.5,
+                "Z": 21.5
+              },
+              {
+                "X": 93.5,
+                "Z": 43
+              },
+              {
+                "X": 52,
+                "Z": 43
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [],
+        "Rects": [],
+        "Arrows": [
+          {
+            "X": 60,
+            "Z": 21.5,
+            "Angle": 0
+          }
+        ],
+        "Signs": [
+          {
+            "Kind": "oneway",
+            "X": 50,
+            "Z": 11.8,
+            "Angle": 1.5708
+          },
+          {
+            "Kind": "work",
+            "X": 96,
+            "Z": 54.8,
+            "Angle": -1.5708
+          }
+        ],
+        "Lights": [],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [],
+        "Chevrons": [],
+        "Gates": []
+      }
+    },
+    {
+      "Id": 9,
+      "Name": "Slalom Parkuru",
+      "ParTime": 18,
+      "Difficulty": 3,
+      "Start": {
+        "X": 18,
+        "Z": 32.5,
+        "Angle": 0
+      },
+      "Target": {
+        "X": 100,
+        "Z": 32.5,
+        "Angle": 0,
+        "Width": 9.6,
+        "Depth": 5,
+        "ToleranceDistance": 1.6,
+        "ToleranceAngle": 0.17
+      },
+      "Walls": [
+        {
+          "X": 8,
+          "Z": 12,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 50.5,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 12,
+          "Width": 2.5,
+          "Depth": 41
+        },
+        {
+          "X": 109.5,
+          "Z": 12,
+          "Width": 2.5,
+          "Depth": 41
+        }
+      ],
+      "ParkedCars": [],
+      "Cones": [
+        {
+          "X": 35,
+          "Z": 23,
+          "Radius": 1.1
+        },
+        {
+          "X": 35,
+          "Z": 31,
+          "Radius": 1.1
+        },
+        {
+          "X": 53,
+          "Z": 34,
+          "Radius": 1.1
+        },
+        {
+          "X": 53,
+          "Z": 42,
+          "Radius": 1.1
+        },
+        {
+          "X": 71,
+          "Z": 23,
+          "Radius": 1.1
+        },
+        {
+          "X": 71,
+          "Z": 31,
+          "Radius": 1.1
+        },
+        {
+          "X": 87,
+          "Z": 26.5,
+          "Radius": 1.1
+        },
+        {
+          "X": 87,
+          "Z": 38.5,
+          "Radius": 1.1
+        }
+      ],
+      "Movers": [],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 14,
+                "Z": 32.5
+              },
+              {
+                "X": 99.5,
+                "Z": 32.5
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [],
+        "Rects": [],
+        "Arrows": [],
+        "Signs": [
+          {
+            "Kind": "work",
+            "X": 30,
+            "Z": 13.8,
+            "Angle": 1.5708
+          },
+          {
+            "Kind": "work",
+            "X": 30,
+            "Z": 51.2,
+            "Angle": -1.5708
+          }
+        ],
+        "Lights": [],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [],
+        "Chevrons": [
+          {
+            "X": 20.5,
+            "Z": 27,
+            "Angle": 0
+          },
+          {
+            "X": 20.5,
+            "Z": 38,
+            "Angle": 0
+          }
+        ],
+        "Gates": []
+      }
+    },
+    {
+      "Id": 10,
+      "Name": "Dikkat Trafik!",
+      "ParTime": 18,
+      "Difficulty": 3,
+      "Start": {
+        "X": 18,
+        "Z": 32.5,
+        "Angle": 0
+      },
+      "Target": {
+        "X": 98,
+        "Z": 32.5,
+        "Angle": 0,
+        "Width": 9.6,
+        "Depth": 5,
+        "ToleranceDistance": 1.6,
+        "ToleranceAngle": 0.17
+      },
+      "Walls": [
+        {
+          "X": 8,
+          "Z": 10,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 52.5,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 10,
+          "Width": 2.5,
+          "Depth": 45
+        },
+        {
+          "X": 109.5,
+          "Z": 10,
+          "Width": 2.5,
+          "Depth": 45
+        }
+      ],
+      "ParkedCars": [
+        {
+          "X": 98,
+          "Z": 25.5,
+          "Angle": 0,
+          "Color": "#ef4444"
+        },
+        {
+          "X": 98,
+          "Z": 39.5,
+          "Angle": 0,
+          "Color": "#f59e0b"
+        }
+      ],
+      "Cones": [],
+      "Movers": [
+        {
+          "X": 58,
+          "Z": 20,
+          "DirectionX": 0,
+          "DirectionZ": 4.8,
+          "MinX": 58,
+          "MaxX": 58,
+          "MinZ": 18,
+          "MaxZ": 47,
+          "Color": "#eab308"
+        }
+      ],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 14,
+                "Z": 32.5
+              },
+              {
+                "X": 92.5,
+                "Z": 32.5
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [
+          {
+            "X": 33,
+            "Z": 12.8,
+            "Width": 6,
+            "Depth": 39.4,
+            "Axis": "x"
+          }
+        ],
+        "Rects": [],
+        "Arrows": [],
+        "Signs": [
+          {
+            "Kind": "ped",
+            "X": 36,
+            "Z": 11.4,
+            "Angle": 1.5708
+          },
+          {
+            "Kind": "ped",
+            "X": 36,
+            "Z": 53.6,
+            "Angle": -1.5708
+          }
+        ],
+        "Lights": [],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [
+          {
+            "X": 44,
+            "Z": 32.5,
+            "Length": 39,
+            "Angle": 1.5708
+          }
+        ],
+        "Chevrons": [],
+        "Gates": []
+      }
+    },
+    {
+      "Id": 11,
+      "Name": "Kavşak",
+      "ParTime": 22,
+      "Difficulty": 3,
+      "Start": {
+        "X": 17,
+        "Z": 32.5,
+        "Angle": 0
+      },
+      "Target": {
+        "X": 60,
+        "Z": 47,
+        "Angle": 1.5708,
+        "Width": 9.6,
+        "Depth": 5,
+        "ToleranceDistance": 1.6,
+        "ToleranceAngle": 0.17
+      },
+      "Walls": [
+        {
+          "X": 8,
+          "Z": 9.5,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 53,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 9.5,
+          "Width": 2.5,
+          "Depth": 46
+        },
+        {
+          "X": 109.5,
+          "Z": 9.5,
+          "Width": 2.5,
+          "Depth": 46
+        },
+        {
+          "X": 10.5,
+          "Z": 12,
+          "Width": 42,
+          "Depth": 13
+        },
+        {
+          "X": 67.5,
+          "Z": 12,
+          "Width": 42,
+          "Depth": 13
+        },
+        {
+          "X": 10.5,
+          "Z": 40,
+          "Width": 42,
+          "Depth": 13
+        },
+        {
+          "X": 67.5,
+          "Z": 40,
+          "Width": 42,
+          "Depth": 13
+        }
+      ],
+      "ParkedCars": [
+        {
+          "X": 33,
+          "Z": 27.5,
+          "Angle": 0,
+          "Color": "#ec4899"
+        },
+        {
+          "X": 82,
+          "Z": 37.5,
+          "Angle": 0,
+          "Color": "#8b5cf6"
+        }
+      ],
+      "Cones": [
+        {
+          "X": 54.8,
+          "Z": 41.8,
+          "Radius": 1
+        },
+        {
+          "X": 65.2,
+          "Z": 41.8,
+          "Radius": 1
+        }
+      ],
+      "Movers": [
+        {
+          "X": 56.5,
+          "Z": 17,
+          "DirectionX": 0,
+          "DirectionZ": 5.1,
+          "MinX": 56.5,
+          "MaxX": 56.5,
+          "MinZ": 16.5,
+          "MaxZ": 36.5,
+          "Color": "#eab308"
+        },
+        {
+          "X": 63.5,
+          "Z": 36,
+          "DirectionX": 0,
+          "DirectionZ": -5.1,
+          "MinX": 63.5,
+          "MaxX": 63.5,
+          "MinZ": 16.5,
+          "MaxZ": 36.5,
+          "Color": "#14b8a6"
+        }
+      ],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 14,
+                "Z": 32.5
+              },
+              {
+                "X": 45.2,
+                "Z": 32.5
+              }
+            ]
+          },
+          {
+            "Points": [
+              {
+                "X": 74.8,
+                "Z": 32.5
+              },
+              {
+                "X": 107.5,
+                "Z": 32.5
+              }
+            ]
+          },
+          {
+            "Points": [
+              {
+                "X": 60,
+                "Z": 12.8
+              },
+              {
+                "X": 60,
+                "Z": 20
+              }
+            ]
+          },
+          {
+            "Points": [
+              {
+                "X": 60,
+                "Z": 44
+              },
+              {
+                "X": 60,
+                "Z": 52.2
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [
+          {
+            "X": 46.2,
+            "Z": 25.2,
+            "Width": 4.4,
+            "Depth": 14.6,
+            "Axis": "x"
+          },
+          {
+            "X": 69.4,
+            "Z": 25.2,
+            "Width": 4.4,
+            "Depth": 14.6,
+            "Axis": "x"
+          },
+          {
+            "X": 52.7,
+            "Z": 20.6,
+            "Width": 14.6,
+            "Depth": 4,
+            "Axis": "y"
+          }
+        ],
+        "Rects": [
+          {
+            "X": 45.4,
+            "Z": 32.7,
+            "Width": 0.5,
+            "Depth": 7
+          },
+          {
+            "X": 74.1,
+            "Z": 25.3,
+            "Width": 0.5,
+            "Depth": 7
+          },
+          {
+            "X": 52.7,
+            "Z": 20,
+            "Width": 7,
+            "Depth": 0.5
+          }
+        ],
+        "Arrows": [
+          {
+            "X": 36,
+            "Z": 36.2,
+            "Angle": 0
+          },
+          {
+            "X": 86,
+            "Z": 28.8,
+            "Angle": 3.1416
+          },
+          {
+            "X": 56.5,
+            "Z": 16,
+            "Angle": 1.5708
+          }
+        ],
+        "Signs": [
+          {
+            "Kind": "stop",
+            "X": 51.9,
+            "Z": 40.8,
+            "Angle": 3.1416
+          },
+          {
+            "Kind": "stop",
+            "X": 68.1,
+            "Z": 24.2,
+            "Angle": 0
+          },
+          {
+            "Kind": "ped",
+            "X": 47,
+            "Z": 24.2,
+            "Angle": 3.1416
+          }
+        ],
+        "Lights": [
+          {
+            "X": 51.9,
+            "Z": 24.2,
+            "Angle": 3.1416,
+            "State": "r"
+          },
+          {
+            "X": 68.1,
+            "Z": 40.8,
+            "Angle": 0,
+            "State": "g"
+          },
+          {
+            "X": 51.9,
+            "Z": 21.4,
+            "Angle": -1.5708,
+            "State": "r"
+          }
+        ],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [],
+        "Chevrons": [],
+        "Gates": []
+      }
+    },
+    {
+      "Id": 12,
+      "Name": "Dar Cep",
+      "ParTime": 22,
+      "Difficulty": 3,
+      "Start": {
+        "X": 22,
+        "Z": 22,
+        "Angle": 0
+      },
+      "Target": {
+        "X": 60,
+        "Z": 44.5,
+        "Angle": 1.5708,
+        "Width": 9.6,
+        "Depth": 5,
+        "ToleranceDistance": 1.6,
+        "ToleranceAngle": 0.17
+      },
+      "Walls": [
+        {
+          "X": 8,
+          "Z": 10,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 52.5,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 10,
+          "Width": 2.5,
+          "Depth": 45
+        },
+        {
+          "X": 109.5,
+          "Z": 10,
+          "Width": 2.5,
+          "Depth": 45
+        },
+        {
+          "X": 10.5,
+          "Z": 36,
+          "Width": 45.5,
+          "Depth": 16.5
+        },
+        {
+          "X": 64,
+          "Z": 36,
+          "Width": 45.5,
+          "Depth": 16.5
+        }
+      ],
+      "ParkedCars": [],
+      "Cones": [
+        {
+          "X": 48,
+          "Z": 22,
+          "Radius": 1
+        },
+        {
+          "X": 72,
+          "Z": 22,
+          "Radius": 1
+        }
+      ],
+      "Movers": [],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 14,
+                "Z": 23
+              },
+              {
+                "X": 60,
+                "Z": 23
+              },
+              {
+                "X": 60,
+                "Z": 42
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [],
+        "Rects": [],
+        "Arrows": [
+          {
+            "X": 33,
+            "Z": 23,
+            "Angle": 0
+          }
+        ],
+        "Signs": [
+          {
+            "Kind": "work",
+            "X": 30,
+            "Z": 11.8,
+            "Angle": 1.5708
+          }
+        ],
+        "Lights": [],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [],
+        "Chevrons": [
+          {
+            "X": 56,
+            "Z": 33,
+            "Angle": 1.5708
+          }
+        ],
+        "Gates": []
+      }
+    },
+    {
+      "Id": 13,
+      "Name": "Yoğun Kavşak",
+      "ParTime": 22,
+      "Difficulty": 4,
+      "Start": {
+        "X": 18,
+        "Z": 45,
+        "Angle": 0
+      },
+      "Target": {
+        "X": 98,
+        "Z": 20,
+        "Angle": 0,
+        "Width": 9.2,
+        "Depth": 4.6,
+        "ToleranceDistance": 1.3,
+        "ToleranceAngle": 0.14
+      },
+      "Walls": [
+        {
+          "X": 8,
+          "Z": 9.5,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 53,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 9.5,
+          "Width": 2.5,
+          "Depth": 46
+        },
+        {
+          "X": 109.5,
+          "Z": 9.5,
+          "Width": 2.5,
+          "Depth": 46
+        }
+      ],
+      "ParkedCars": [
+        {
+          "X": 86.8,
+          "Z": 20,
+          "Angle": 0,
+          "Color": "#6366f1"
+        }
+      ],
+      "Cones": [],
+      "Movers": [
+        {
+          "X": 44,
+          "Z": 18,
+          "DirectionX": 0,
+          "DirectionZ": 5.1,
+          "MinX": 44,
+          "MaxX": 44,
+          "MinZ": 17,
+          "MaxZ": 48,
+          "Color": "#f97316"
+        },
+        {
+          "X": 70,
+          "Z": 47,
+          "DirectionX": 0,
+          "DirectionZ": -5.1,
+          "MinX": 70,
+          "MaxX": 70,
+          "MinZ": 17,
+          "MaxZ": 48,
+          "Color": "#14b8a6"
+        }
+      ],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 14,
+                "Z": 32.5
+              },
+              {
+                "X": 107.5,
+                "Z": 32.5
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [
+          {
+            "X": 41,
+            "Z": 25.2,
+            "Width": 6,
+            "Depth": 14.6,
+            "Axis": "x"
+          },
+          {
+            "X": 67,
+            "Z": 25.2,
+            "Width": 6,
+            "Depth": 14.6,
+            "Axis": "x"
+          }
+        ],
+        "Rects": [
+          {
+            "X": 40.2,
+            "Z": 32.7,
+            "Width": 0.5,
+            "Depth": 7
+          },
+          {
+            "X": 72.7,
+            "Z": 25.3,
+            "Width": 0.5,
+            "Depth": 7
+          }
+        ],
+        "Arrows": [],
+        "Signs": [
+          {
+            "Kind": "ped",
+            "X": 44,
+            "Z": 11.4,
+            "Angle": 1.5708
+          },
+          {
+            "Kind": "ped",
+            "X": 70,
+            "Z": 53.6,
+            "Angle": -1.5708
+          }
+        ],
+        "Lights": [
+          {
+            "X": 44,
+            "Z": 53,
+            "Angle": -1.5708,
+            "State": "r"
+          },
+          {
+            "X": 70,
+            "Z": 10.8,
+            "Angle": 1.5708,
+            "State": "g"
+          }
+        ],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [],
+        "Chevrons": [],
+        "Gates": []
+      }
+    },
+    {
+      "Id": 14,
+      "Name": "Sıkışık Otopark",
+      "ParTime": 28,
+      "Difficulty": 4,
+      "Start": {
+        "X": 15,
+        "Z": 32.5,
+        "Angle": 0
+      },
+      "Target": {
+        "X": 61,
+        "Z": 19,
+        "Angle": -1.5708,
+        "Width": 9.2,
+        "Depth": 4.6,
+        "ToleranceDistance": 1.3,
+        "ToleranceAngle": 0.14
+      },
+      "Walls": [
+        {
+          "X": 8,
+          "Z": 9.5,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 53,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 9.5,
+          "Width": 2.5,
+          "Depth": 46
+        },
+        {
+          "X": 109.5,
+          "Z": 9.5,
+          "Width": 2.5,
+          "Depth": 46
+        }
+      ],
+      "ParkedCars": [
+        {
+          "X": 33,
+          "Z": 19,
+          "Angle": 1.5708,
+          "Color": "#ef4444"
+        },
+        {
+          "X": 38.6,
+          "Z": 19,
+          "Angle": 1.5708,
+          "Color": "#3b82f6"
+        },
+        {
+          "X": 44.2,
+          "Z": 19,
+          "Angle": 1.5708,
+          "Color": "#f59e0b"
+        },
+        {
+          "X": 49.8,
+          "Z": 19,
+          "Angle": 1.5708,
+          "Color": "#10b981"
+        },
+        {
+          "X": 56.1,
+          "Z": 19,
+          "Angle": 1.5708,
+          "Color": "#a855f7"
+        },
+        {
+          "X": 65.9,
+          "Z": 19,
+          "Angle": 1.5708,
+          "Color": "#ec4899"
+        },
+        {
+          "X": 71.5,
+          "Z": 19,
+          "Angle": 1.5708,
+          "Color": "#eab308"
+        },
+        {
+          "X": 77.1,
+          "Z": 19,
+          "Angle": 1.5708,
+          "Color": "#06b6d4"
+        },
+        {
+          "X": 82.7,
+          "Z": 19,
+          "Angle": 1.5708,
+          "Color": "#f43f5e"
+        },
+        {
+          "X": 88.3,
+          "Z": 19,
+          "Angle": 1.5708,
+          "Color": "#6366f1"
+        },
+        {
+          "X": 33,
+          "Z": 46.2,
+          "Angle": 1.5708,
+          "Color": "#14b8a6"
+        },
+        {
+          "X": 38.6,
+          "Z": 46.2,
+          "Angle": 1.5708,
+          "Color": "#f97316"
+        },
+        {
+          "X": 44.2,
+          "Z": 46.2,
+          "Angle": 1.5708,
+          "Color": "#8b5cf6"
+        },
+        {
+          "X": 49.8,
+          "Z": 46.2,
+          "Angle": 1.5708,
+          "Color": "#ef4444"
+        },
+        {
+          "X": 55.4,
+          "Z": 46.2,
+          "Angle": 1.5708,
+          "Color": "#3b82f6"
+        },
+        {
+          "X": 66.6,
+          "Z": 46.2,
+          "Angle": 1.5708,
+          "Color": "#f59e0b"
+        },
+        {
+          "X": 72.2,
+          "Z": 46.2,
+          "Angle": 1.5708,
+          "Color": "#10b981"
+        },
+        {
+          "X": 77.8,
+          "Z": 46.2,
+          "Angle": 1.5708,
+          "Color": "#ec4899"
+        },
+        {
+          "X": 83.4,
+          "Z": 46.2,
+          "Angle": 1.5708,
+          "Color": "#a855f7"
+        },
+        {
+          "X": 89,
+          "Z": 46.2,
+          "Angle": 1.5708,
+          "Color": "#eab308"
+        }
+      ],
+      "Cones": [
+        {
+          "X": 42,
+          "Z": 33,
+          "Radius": 1
+        },
+        {
+          "X": 80,
+          "Z": 33,
+          "Radius": 1
+        }
+      ],
+      "Movers": [],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 14,
+                "Z": 32.5
+              },
+              {
+                "X": 107.5,
+                "Z": 32.5
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [],
+        "Rects": [],
+        "Arrows": [
+          {
+            "X": 30,
+            "Z": 29,
+            "Angle": 0
+          },
+          {
+            "X": 88,
+            "Z": 36,
+            "Angle": 3.1416
+          }
+        ],
+        "Signs": [
+          {
+            "Kind": "oneway",
+            "X": 20,
+            "Z": 10.6,
+            "Angle": 1.5708
+          }
+        ],
+        "Lights": [],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [],
+        "Chevrons": [],
+        "Gates": [
+          {
+            "X": 12.8,
+            "Z": 26.2,
+            "Angle": 0
+          }
+        ]
+      }
+    },
+    {
+      "Id": 15,
+      "Name": "Usta Paralel",
+      "ParTime": 22,
+      "Difficulty": 4,
+      "Start": {
+        "X": 96,
+        "Z": 25,
+        "Angle": 3.1416
+      },
+      "Target": {
+        "X": 52,
+        "Z": 43.5,
+        "Angle": 3.1416,
+        "Width": 9.2,
+        "Depth": 4.6,
+        "ToleranceDistance": 1.3,
+        "ToleranceAngle": 0.14
+      },
+      "Walls": [
+        {
+          "X": 8,
+          "Z": 11,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 49.5,
+          "Width": 104,
+          "Depth": 3.5
+        },
+        {
+          "X": 8,
+          "Z": 11,
+          "Width": 2.5,
+          "Depth": 42
+        },
+        {
+          "X": 109.5,
+          "Z": 11,
+          "Width": 2.5,
+          "Depth": 42
+        },
+        {
+          "X": 25,
+          "Z": 24,
+          "Width": 32,
+          "Depth": 2.5
+        }
+      ],
+      "ParkedCars": [
+        {
+          "X": 42.5,
+          "Z": 43.5,
+          "Angle": 3.1416,
+          "Color": "#ec4899"
+        },
+        {
+          "X": 61.5,
+          "Z": 43.5,
+          "Angle": 3.1416,
+          "Color": "#ef4444"
+        }
+      ],
+      "Cones": [],
+      "Movers": [],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 107.5,
+                "Z": 19
+              },
+              {
+                "X": 14,
+                "Z": 19
+              }
+            ]
+          },
+          {
+            "Points": [
+              {
+                "X": 107.5,
+                "Z": 36.5
+              },
+              {
+                "X": 14,
+                "Z": 36.5
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [],
+        "Rects": [],
+        "Arrows": [
+          {
+            "X": 80,
+            "Z": 19,
+            "Angle": 3.1416
+          }
+        ],
+        "Signs": [
+          {
+            "Kind": "nopark",
+            "X": 80,
+            "Z": 51.2,
+            "Angle": -1.5708
+          },
+          {
+            "Kind": "ped",
+            "X": 64,
+            "Z": 11.8,
+            "Angle": 1.5708
+          }
+        ],
+        "Lights": [],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [],
+        "Chevrons": [],
+        "Gates": []
+      }
+    },
+    {
+      "Id": 16,
+      "Name": "Kör Nokta",
+      "ParTime": 25,
+      "Difficulty": 4,
+      "Start": {
+        "X": 18,
+        "Z": 18.5,
+        "Angle": 0
+      },
+      "Target": {
+        "X": 98,
+        "Z": 45.5,
+        "Angle": 0,
+        "Width": 9.2,
+        "Depth": 4.6,
+        "ToleranceDistance": 1.3,
+        "ToleranceAngle": 0.14
+      },
+      "Walls": [
+        {
+          "X": 8,
+          "Z": 9,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 53.5,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 9,
+          "Width": 2.5,
+          "Depth": 47
+        },
+        {
+          "X": 109.5,
+          "Z": 9,
+          "Width": 2.5,
+          "Depth": 47
+        },
+        {
+          "X": 32,
+          "Z": 11.5,
+          "Width": 3,
+          "Depth": 27
+        },
+        {
+          "X": 58,
+          "Z": 26.5,
+          "Width": 3,
+          "Depth": 27
+        },
+        {
+          "X": 83,
+          "Z": 11.5,
+          "Width": 3,
+          "Depth": 26
+        }
+      ],
+      "ParkedCars": [
+        {
+          "X": 87,
+          "Z": 45.5,
+          "Angle": 0,
+          "Color": "#8b5cf6"
+        }
+      ],
+      "Cones": [
+        {
+          "X": 45,
+          "Z": 45,
+          "Radius": 1
+        }
+      ],
+      "Movers": [],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 14,
+                "Z": 18.5
+              },
+              {
+                "X": 21.2,
+                "Z": 18.5
+              },
+              {
+                "X": 21.2,
+                "Z": 45
+              },
+              {
+                "X": 45.2,
+                "Z": 45
+              },
+              {
+                "X": 45.2,
+                "Z": 19
+              },
+              {
+                "X": 70.5,
+                "Z": 19
+              },
+              {
+                "X": 70.5,
+                "Z": 32
+              },
+              {
+                "X": 95.5,
+                "Z": 32
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [],
+        "Rects": [],
+        "Arrows": [],
+        "Signs": [
+          {
+            "Kind": "work",
+            "X": 46,
+            "Z": 55.6,
+            "Angle": -1.5708
+          }
+        ],
+        "Lights": [],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [],
+        "Chevrons": [
+          {
+            "X": 33,
+            "Z": 41,
+            "Angle": 0
+          }
+        ],
+        "Gates": []
+      }
+    },
+    {
+      "Id": 17,
+      "Name": "Şehir Merkezi",
+      "ParTime": 30,
+      "Difficulty": 5,
+      "Start": {
+        "X": 17,
+        "Z": 32.5,
+        "Angle": 0
+      },
+      "Target": {
+        "X": 90,
+        "Z": 36.6,
+        "Angle": 0,
+        "Width": 9.2,
+        "Depth": 4.4,
+        "ToleranceDistance": 1.2,
+        "ToleranceAngle": 0.12
+      },
+      "Walls": [
+        {
+          "X": 8,
+          "Z": 9.5,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 53,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 9.5,
+          "Width": 2.5,
+          "Depth": 46
+        },
+        {
+          "X": 109.5,
+          "Z": 9.5,
+          "Width": 2.5,
+          "Depth": 46
+        },
+        {
+          "X": 10.5,
+          "Z": 12,
+          "Width": 42,
+          "Depth": 13
+        },
+        {
+          "X": 67.5,
+          "Z": 12,
+          "Width": 42,
+          "Depth": 13
+        },
+        {
+          "X": 10.5,
+          "Z": 40,
+          "Width": 42,
+          "Depth": 13
+        },
+        {
+          "X": 67.5,
+          "Z": 40,
+          "Width": 42,
+          "Depth": 13
+        }
+      ],
+      "ParkedCars": [
+        {
+          "X": 33,
+          "Z": 27.5,
+          "Angle": 0,
+          "Color": "#ec4899"
+        },
+        {
+          "X": 80.5,
+          "Z": 36.6,
+          "Angle": 0,
+          "Color": "#ef4444"
+        },
+        {
+          "X": 99.5,
+          "Z": 36.6,
+          "Angle": 0,
+          "Color": "#f59e0b"
+        }
+      ],
+      "Cones": [],
+      "Movers": [
+        {
+          "X": 56.5,
+          "Z": 17,
+          "DirectionX": 0,
+          "DirectionZ": 5.1,
+          "MinX": 56.5,
+          "MaxX": 56.5,
+          "MinZ": 16.5,
+          "MaxZ": 36.5,
+          "Color": "#eab308"
+        },
+        {
+          "X": 63.5,
+          "Z": 36,
+          "DirectionX": 0,
+          "DirectionZ": -5.1,
+          "MinX": 63.5,
+          "MaxX": 63.5,
+          "MinZ": 16.5,
+          "MaxZ": 36.5,
+          "Color": "#14b8a6"
+        },
+        {
+          "X": 88,
+          "Z": 28,
+          "DirectionX": 4.8,
+          "DirectionZ": 0,
+          "MinX": 72,
+          "MaxX": 104,
+          "MinZ": 28,
+          "MaxZ": 28,
+          "Color": "#06b6d4"
+        }
+      ],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 14,
+                "Z": 32.5
+              },
+              {
+                "X": 45.2,
+                "Z": 32.5
+              }
+            ]
+          },
+          {
+            "Points": [
+              {
+                "X": 74.8,
+                "Z": 32.5
+              },
+              {
+                "X": 107.5,
+                "Z": 32.5
+              }
+            ]
+          },
+          {
+            "Points": [
+              {
+                "X": 60,
+                "Z": 12.8
+              },
+              {
+                "X": 60,
+                "Z": 20
+              }
+            ]
+          },
+          {
+            "Points": [
+              {
+                "X": 60,
+                "Z": 45.8
+              },
+              {
+                "X": 60,
+                "Z": 52.2
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [
+          {
+            "X": 46.2,
+            "Z": 25.2,
+            "Width": 4.4,
+            "Depth": 14.6,
+            "Axis": "x"
+          },
+          {
+            "X": 69.4,
+            "Z": 25.2,
+            "Width": 4.4,
+            "Depth": 14.6,
+            "Axis": "x"
+          },
+          {
+            "X": 52.7,
+            "Z": 20.6,
+            "Width": 14.6,
+            "Depth": 4,
+            "Axis": "y"
+          },
+          {
+            "X": 52.7,
+            "Z": 41,
+            "Width": 14.6,
+            "Depth": 4,
+            "Axis": "y"
+          }
+        ],
+        "Rects": [
+          {
+            "X": 45.4,
+            "Z": 32.7,
+            "Width": 0.5,
+            "Depth": 7
+          },
+          {
+            "X": 74.1,
+            "Z": 25.3,
+            "Width": 0.5,
+            "Depth": 7
+          },
+          {
+            "X": 52.7,
+            "Z": 20,
+            "Width": 7,
+            "Depth": 0.5
+          },
+          {
+            "X": 60.3,
+            "Z": 45,
+            "Width": 7,
+            "Depth": 0.5
+          }
+        ],
+        "Arrows": [
+          {
+            "X": 36,
+            "Z": 36.2,
+            "Angle": 0
+          },
+          {
+            "X": 86,
+            "Z": 28.8,
+            "Angle": 3.1416
+          },
+          {
+            "X": 56.5,
+            "Z": 16,
+            "Angle": 1.5708
+          }
+        ],
+        "Signs": [
+          {
+            "Kind": "stop",
+            "X": 51.9,
+            "Z": 40.8,
+            "Angle": 3.1416
+          },
+          {
+            "Kind": "stop",
+            "X": 68.1,
+            "Z": 24.2,
+            "Angle": 0
+          },
+          {
+            "Kind": "stop",
+            "X": 68.1,
+            "Z": 43,
+            "Angle": 1.5708
+          },
+          {
+            "Kind": "ped",
+            "X": 47,
+            "Z": 24.2,
+            "Angle": 3.1416
+          },
+          {
+            "Kind": "nopark",
+            "X": 105,
+            "Z": 40.7,
+            "Angle": 1.5708
+          }
+        ],
+        "Lights": [
+          {
+            "X": 51.9,
+            "Z": 24.2,
+            "Angle": 3.1416,
+            "State": "r"
+          },
+          {
+            "X": 68.1,
+            "Z": 40.8,
+            "Angle": 0,
+            "State": "g"
+          },
+          {
+            "X": 51.9,
+            "Z": 21.4,
+            "Angle": -1.5708,
+            "State": "r"
+          }
+        ],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [],
+        "Chevrons": [],
+        "Gates": []
+      }
+    },
+    {
+      "Id": 18,
+      "Name": "Büyük Final",
+      "ParTime": 30,
+      "Difficulty": 5,
+      "Start": {
+        "X": 17,
+        "Z": 45.5,
+        "Angle": 0
+      },
+      "Target": {
+        "X": 100.5,
+        "Z": 18.5,
+        "Angle": -1.5708,
+        "Width": 9.2,
+        "Depth": 4.4,
+        "ToleranceDistance": 1.2,
+        "ToleranceAngle": 0.12
+      },
+      "Walls": [
+        {
+          "X": 8,
+          "Z": 8.5,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 54,
+          "Width": 104,
+          "Depth": 2.5
+        },
+        {
+          "X": 8,
+          "Z": 8.5,
+          "Width": 2.5,
+          "Depth": 48
+        },
+        {
+          "X": 109.5,
+          "Z": 8.5,
+          "Width": 2.5,
+          "Depth": 48
+        },
+        {
+          "X": 35,
+          "Z": 33,
+          "Width": 3,
+          "Depth": 21
+        },
+        {
+          "X": 76,
+          "Z": 11,
+          "Width": 3,
+          "Depth": 23
+        }
+      ],
+      "ParkedCars": [
+        {
+          "X": 95.5,
+          "Z": 18.5,
+          "Angle": 1.5708,
+          "Color": "#ef4444"
+        },
+        {
+          "X": 105.5,
+          "Z": 18.5,
+          "Angle": 1.5708,
+          "Color": "#8b5cf6"
+        },
+        {
+          "X": 54,
+          "Z": 45.5,
+          "Angle": 0,
+          "Color": "#f59e0b"
+        }
+      ],
+      "Cones": [
+        {
+          "X": 24,
+          "Z": 24,
+          "Radius": 1
+        },
+        {
+          "X": 54,
+          "Z": 21,
+          "Radius": 1
+        }
+      ],
+      "Movers": [
+        {
+          "X": 66,
+          "Z": 38,
+          "DirectionX": 5.1,
+          "DirectionZ": 0,
+          "MinX": 46,
+          "MaxX": 96,
+          "MinZ": 38,
+          "MaxZ": 38,
+          "Color": "#06b6d4"
+        }
+      ],
+      "Decor": {
+        "Paths": [
+          {
+            "Points": [
+              {
+                "X": 14,
+                "Z": 45.5
+              },
+              {
+                "X": 30,
+                "Z": 45.5
+              },
+              {
+                "X": 30,
+                "Z": 25
+              },
+              {
+                "X": 56,
+                "Z": 25
+              },
+              {
+                "X": 56,
+                "Z": 44
+              },
+              {
+                "X": 88,
+                "Z": 44
+              },
+              {
+                "X": 88,
+                "Z": 23.5
+              }
+            ]
+          }
+        ],
+        "Lines": [],
+        "Zebras": [],
+        "Rects": [],
+        "Arrows": [],
+        "Signs": [
+          {
+            "Kind": "work",
+            "X": 52,
+            "Z": 11.8,
+            "Angle": 1.5708
+          },
+          {
+            "Kind": "oneway",
+            "X": 88,
+            "Z": 55.6,
+            "Angle": -1.5708
+          }
+        ],
+        "Lights": [],
+        "Lamps": [],
+        "Trees": [],
+        "Bumps": [],
+        "Chevrons": [
+          {
+            "X": 23.5,
+            "Z": 30,
+            "Angle": 0
+          }
+        ],
+        "Gates": []
+      }
+    }
+  ]
+}

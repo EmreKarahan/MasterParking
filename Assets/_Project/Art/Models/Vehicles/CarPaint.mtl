@@ -1,0 +1,18 @@
+# Shared by all extracted car parts. Texture is the original palette atlas.
+newmtl CarPaint
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.080 0.080 0.080
+Ns 24.000
+d 1.0
+illum 2
+map_Kd ../Textures/VehiclePalette.png
+
+newmtl CarGlass
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.450 0.450 0.450
+Ns 96.000
+d 1.0
+illum 2
+map_Kd ../Textures/VehiclePalette.png

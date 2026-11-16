@@ -1,0 +1,92 @@
+{
+  "Parts": [
+    {
+      "Name": "car_body",
+      "File": "Car_Body.obj",
+      "Glass": false,
+      "Pivot": null
+    },
+    {
+      "Name": "wheel_br",
+      "File": "Wheel_BR.obj",
+      "Glass": false,
+      "Pivot": {
+        "X": -2.5543,
+        "Y": 0.705,
+        "Z": 1.6945
+      }
+    },
+    {
+      "Name": "door_r",
+      "File": "Door_R.obj",
+      "Glass": false,
+      "Pivot": null
+    },
+    {
+      "Name": "win_door_r001",
+      "File": "Window_Door_R.obj",
+      "Glass": true,
+      "Pivot": null
+    },
+    {
+      "Name": "wheel_fl",
+      "File": "Wheel_FL.obj",
+      "Glass": false,
+      "Pivot": {
+        "X": 2.4579,
+        "Y": 0.705,
+        "Z": -1.6945
+      }
+    },
+    {
+      "Name": "door_l",
+      "File": "Door_L.obj",
+      "Glass": false,
+      "Pivot": null
+    },
+    {
+      "Name": "win_door_l001",
+      "File": "Window_Door_L.obj",
+      "Glass": true,
+      "Pivot": null
+    },
+    {
+      "Name": "windows",
+      "File": "Windows.obj",
+      "Glass": true,
+      "Pivot": null
+    },
+    {
+      "Name": "wheel_fr",
+      "File": "Wheel_FR.obj",
+      "Glass": false,
+      "Pivot": {
+        "X": 2.4579,
+        "Y": 0.705,
+        "Z": 1.6945
+      }
+    },
+    {
+      "Name": "interior",
+      "File": "Interior.obj",
+      "Glass": false,
+      "Pivot": null
+    },
+    {
+      "Name": "wheel_bl",
+      "File": "Wheel_BL.obj",
+      "Glass": false,
+      "Pivot": {
+        "X": -2.5543,
+        "Y": 0.705,
+        "Z": -1.6945
+      }
+    },
+    {
+      "Name": "number",
+      "File": "Number.obj",
+      "Glass": false,
+      "Pivot": null
+    }
+  ]
+}
